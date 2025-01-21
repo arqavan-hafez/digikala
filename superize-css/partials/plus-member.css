@@ -1,0 +1,112 @@
+.plus-member {
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  
+    .plus-member-center {
+      width: 87%;
+      height: 100%;
+      background: url(../../images/plus-member/background-svg-1.svg) right center
+          no-repeat,
+        url(../../images/plus-member/background-svg-2.svg) left center no-repeat;
+      border-radius: 15px;
+      cursor: pointer;
+      background-color: #eae2e9;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+  
+      .plus-member-center-right {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  
+      .plus-member-center-left {
+        width: 16%;
+        height: 100%;
+  
+        .plus-member-center-left-top {
+          width: 100%;
+          height: 40%;
+          display: flex;
+          align-items: center;
+          column-gap: 10px;
+  
+          img {
+            width: 6%;
+          }
+  
+          span {
+            font-family: var(--MyFont);
+            font-size: 16px;
+            color: rebeccapurple;
+            font-weight: bold;
+          }
+        }
+        .plus-member-center-left-bottom {
+          width: 100%;
+          height: 60%;
+          display: flex;
+          flex-flow: row wrap;
+          .plus-member-center-left-bottom-right {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            column-gap: 5px;
+            direction: ltr;
+  
+            .plus-member-center-left-bottom-right-time {
+              width: 40px;
+              height: 40px;
+              background-color: white;
+              border-radius: 7px;
+              display: flex;
+              flex-flow: column wrap;
+              align-items: center;
+              justify-content: center;
+  
+              .plus-member-center-left-bottom-right-time-number {
+                font-family: var(--bnazanin);
+                font-size: 18px;
+                color: rebeccapurple;
+                font-weight: bold;
+              }
+              .plus-member-center-left-bottom-right-time-text {
+                font-family: var(--MyFont);
+                font-size: 8px;
+                color: rebeccapurple;
+              }
+            }
+          }
+          .plus-member-center-left-bottom-left {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+  
+            span {
+              font-family: var(--MyFont);
+              font-size: 12px;
+              color: rebeccapurple;
+              font-weight: bold;
+              margin-left: 5px;
+            }
+  
+            .plus-member-center-left-bottom-left-svg {
+              transform: scale(0.8, 0.8);
+            }
+          }
+        }
+      }
+    }
+  }
+  

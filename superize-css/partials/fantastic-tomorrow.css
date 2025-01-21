@@ -1,0 +1,184 @@
+.fantastic-tomorrow {
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  
+    .fantastic-tomorrow-link {
+      display: block;
+      width: 87%;
+      height: 100%;
+      text-decoration: none;
+  
+      .fantastic-tomorrow-center {
+        width: 100%;
+        height: 100%;
+        background: url(../../imgs/svg/background-tomorrow.svg) left
+            center no-repeat,
+          linear-gradient(to left, #f4e0e4, #f5f0f0) center center no-repeat;
+        border-radius: 15px;
+        display: flex;
+        flex-flow: row wrap;
+  
+        .fantastic-tomorrow-center-right {
+          width: 50%;
+          height: 100%;
+  
+          .fantastic-tomorrow-center-right-top {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-flow: row wrap;
+  
+            .fantastic-tomorrow-center-right-top-right {
+              width: 35%;
+              height: 100%;
+              display: flex;
+              align-items: flex-end;
+              padding-right: 60px;
+            }
+            .fantastic-tomorrow-center-right-top-left {
+              width: 65%;
+              height: 100%;
+              display: flex;
+              flex-flow: row wrap;
+              column-gap: 5px;
+              align-items: flex-end;
+              padding-right: 5px;
+  
+              .fantastic-tomorrow-center-right-top-left-time {
+                width: 35px;
+                height: 35px;
+                background-color: white;
+                border-radius: 7px;
+  
+                span {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  text-align: center;
+                  line-height: 35px;
+                  font-family: var(--bnazanin);
+                  font-size: 16px;
+                  color: black;
+                  font-weight: bold;
+                }
+              }
+  
+              .fantastic-tomorrow-center-right-top-left-two-dots {
+                height: 35px;
+                display: flex;
+                align-items: center;
+                span {
+                  font-family: var(--MyFont);
+                  font-size: 16px;
+                  color: black;
+                  font-weight: bold;
+                }
+              }
+            }
+          }
+          .fantastic-tomorrow-center-right-bottom {
+            width: 100%;
+            height: 50%;
+            padding-right: 60px;
+  
+            span {
+              font-family: var(--MyFont);
+              font-size: 12px;
+              color: black;
+              font-weight: bold;
+            }
+          }
+        }
+        .fantastic-tomorrow-center-left {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          flex-flow: row wrap;
+  
+          .fantastic-tomorrow-center-left-right {
+            width: 75%;
+            height: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            column-gap: 10px;
+            align-items: center;
+            justify-content: flex-end;
+  
+            .fantastic-tomorrow-center-left-right-products {
+              width: 80px;
+              height: 80px;
+              background-color: white;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: relative;
+  
+              img {
+                width: 58px;
+                height: 58px;
+                object-fit: cover;
+              }
+  
+              .fantastic-tomorrow-center-left-right-products-percent {
+                width: 34px;
+                height: 22px;
+                background-color: #d32f2f;
+                border-radius: 16px;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+  
+                span {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  line-height: 22px;
+                  text-align: center;
+                  font-family: var(--bnazanin);
+                  font-size: 16px;
+                  font-weight: bold;
+                  color: whitesmoke;
+                }
+              }
+            }
+          }
+          .fantastic-tomorrow-center-left-left {
+            width: 25%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-right: 15px;
+  
+            .fantastic-tomorrow-center-left-left-more-item {
+              width: 140px;
+              height: 50px;
+              background-color: white;
+              border-radius: 50px;
+              display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+              justify-content: center;
+              column-gap: 10px;
+  
+              span {
+                font-family: var(--MyFont);
+                font-size: 12px;
+                color: #ef394e;
+                font-weight: bold;
+              }
+  
+              .fantastic-tomorrow-center-left-left-more-item-svg {
+                transform: scale(0.8, 0.8);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

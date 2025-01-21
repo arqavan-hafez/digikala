@@ -1,0 +1,310 @@
+.end-superizing-products {
+    width: 100%;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  
+    .end-superizing-products-center {
+      width: 87%;
+      height: 100%;
+      border-radius: 7px;
+      border: 1px solid lightgray;
+  
+      .end-superizing-products-center-top {
+        width: 100%;
+        height: 15%;
+  
+        .end-superizing-products-center-top-text {
+          width: 100%;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          padding-right: 20px;
+          column-gap: 5px;
+  
+          span {
+            font-family: var(--MyFont);
+            font-size: 14px;
+            color: black;
+            font-weight: bold;
+          }
+        }
+  
+        .end-superizing-products-center-top-empty {
+          width: 80px;
+          height: 2px;
+          background-color: crimson;
+          margin-right: 20px;
+        }
+      }
+      .end-superizing-products-center-bottom {
+        width: 100%;
+        height: 85%;
+  
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+  
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+  
+          .end-superizing-products-center-bottom-product {
+            width: 100%;
+            height: 100%;
+  
+            .end-superizing-products-center-bottom-product-link {
+              display: block;
+              width: 100%;
+              height: 100%;
+              border-left: 1px solid lightgray;
+              text-decoration: none;
+  
+              .end-superizing-products-center-bottom-product-link-part-1 {
+                width: 100%;
+                height: 10%;
+                padding: 5px;
+  
+                img {
+                  width: 60%;
+                }
+              }
+              .end-superizing-products-center-bottom-product-link-part-2 {
+                width: 100%;
+                height: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+  
+                img {
+                  width: 150px;
+                  height: 150px;
+                  object-fit: cover;
+                }
+              }
+              .end-superizing-products-center-bottom-product-link-part-3 {
+                width: 100%;
+                height: 10%;
+                padding: 0 5px 0 5px;
+  
+                h3 {
+                  width: 95%;
+                  height: 100%;
+                  display: -webkit-box;
+                  -webkit-line-clamp: 2;
+                  -webkit-box-orient: vertical;
+                  overflow: hidden;
+                  font-size: 13px;
+                  font-family: var(--MyFont);
+                  color: #2b2b2b;
+                  text-align: right;
+                }
+              }
+              .end-superizing-products-center-bottom-product-link-part-4 {
+                width: 100%;
+                height: 8%;
+                padding: 5px;
+                display: flex;
+                align-items: center;
+                column-gap: 5px;
+  
+                p {
+                  font-family: var(--MyFont);
+                  font-size: 10px;
+                  color: #ef394e;
+                  text-align: right;
+                }
+  
+                .send-today {
+                  color: #2b2b2b;
+                }
+  
+                .send-today-svg {
+                  transform: scale(0.8, 0.8);
+                }
+              }
+              .end-superizing-products-center-bottom-product-link-part-5 {
+                width: 100%;
+                height: 8%;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 5px 0 5px;
+  
+                .end-superizing-products-center-bottom-product-link-part-5-right {
+                  width: 35px;
+                  height: 20px;
+                  background-color: #d32f2f;
+                  border-radius: 15px;
+  
+                  span {
+                    font-family: var(--bnazanin);
+                    font-size: 16px;
+                    color: whitesmoke;
+                    font-weight: bold;
+                  }
+                }
+  
+                .end-superizing-products-center-bottom-product-link-part-5-left {
+                  width: 50%;
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-end;
+  
+                  span {
+                    font-family: var(--bnazanin);
+                    font-size: 16px;
+                    color: #2b2b2b;
+                    font-weight: bold;
+                  }
+                }
+              }
+              .end-superizing-products-center-bottom-product-link-part-6 {
+                width: 100%;
+                height: 8%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                padding-left: 25px;
+  
+                del {
+                  font-family: var(--bnazanin);
+                  font-size: 14px;
+                  color: lightgray;
+                  font-weight: bold;
+                }
+              }
+              .end-superizing-products-center-bottom-product-link-part-7 {
+                width: 100%;
+                height: 6%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+  
+                .end-superizing-products-center-bottom-product-link-part-7-empty {
+                  width: 90%;
+                  height: 5px;
+                  background-color: lightgray;
+                  border-radius: 15px;
+                  direction: ltr;
+  
+                  .end-superizing-products-center-bottom-product-link-part-7-empty-inner-part {
+                    width: 92%;
+                    height: 100%;
+                    background-color: #ef394e;
+                    border-radius: 15px;
+                  }
+  
+                  .percent-86 {
+                    width: 86%;
+                  }
+  
+                  .percent-87 {
+                    width: 87%;
+                  }
+  
+                  .percent-84 {
+                    width: 84%;
+                  }
+  
+                  .percent-80 {
+                    width: 80%;
+                  }
+  
+                  .percent-72 {
+                    width: 72%;
+                  }
+  
+                  .percent-70 {
+                    width: 70%;
+                  }
+  
+                  .percent-69 {
+                    width: 69%;
+                  }
+  
+                  .percent-63 {
+                    width: 63%;
+                  }
+  
+                  .percent-60 {
+                    width: 60%;
+                  }
+  
+                  .percent-55 {
+                    width: 55%;
+                  }
+  
+                  .percent-54 {
+                    width: 54%;
+                  }
+                }
+              }
+              .end-superizing-products-center-bottom-product-link-part-8 {
+                width: 100%;
+                height: 10%;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+                padding: 5px;
+  
+                .end-superizing-products-center-bottom-product-link-part-8-right {
+                  width: 45%;
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  column-gap: 5px;
+  
+                  .end-superizing-products-center-bottom-product-link-part-8-right-number {
+                    font-size: 16px;
+                    font-family: var(--bnazanin);
+                    color: #ef394e;
+                    font-weight: bold;
+                  }
+                  .end-superizing-products-center-bottom-product-link-part-8-right-text {
+                    font-size: 16px;
+                    font-family: var(--bnazanin);
+                    color: gray;
+                  }
+                }
+                .end-superizing-products-center-bottom-product-link-part-8-left {
+                  width: 45%;
+                  height: 100%;
+                  direction: ltr;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  column-gap: 5px;
+  
+                  .end-superizing-products-center-bottom-product-link-part-8-left-time,
+                  .end-superizing-products-center-bottom-product-link-part-8-left-two-dots {
+                    font-family: var(--bnazanin);
+                    font-size: 16px;
+                    color: #ef394e;
+                    font-weight: bold;
+                  }
+                }
+              }
+            }
+          }
+        }
+  
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  

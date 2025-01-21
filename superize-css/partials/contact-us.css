@@ -1,0 +1,247 @@
+.contact-us {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ef4056;
+    position: fixed;
+    right: 60px;
+    bottom: 40px;
+    z-index: 5;
+  
+    input[type="radio"] {
+      display: none;
+    }
+  
+    .contact-us-label {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      overflow: hidden;
+  
+      .close-contact-us {
+        display: none;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 100ms;
+      }
+  
+      .show-contact-us {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 100ms;
+      }
+    }
+  
+    .contact-us-item {
+      width: 360px;
+      height: 650px;
+      position: absolute;
+      right: 0px;
+      bottom: 45px;
+      border-radius: 15px;
+      display: none;
+      border: 1px solid #ef4056;
+      background-color: white;
+      transition: 100ms;
+  
+      .contact-us-item-row-1 {
+        width: 100%;
+        height: 50px;
+        background-color: #ef4056;
+        border-radius: 15px 15px 0px 0px;
+        display: flex;
+        .contact-us-item-row-1-right {
+          width: 70%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          padding-right: 20px;
+  
+          .contact-us-item-row-1-right-text {
+            font-size: 16px;
+            font-family: var(--font-family);
+            color: white;
+          }
+        }
+        .contact-us-item-row-1-left {
+          width: 30%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          padding-left: 20px;
+  
+          .contact-us-item-row-1-left-label {
+            width: fit-content;
+            cursor: pointer;
+          }
+        }
+      }
+  
+      .contact-us-item-overflow {
+        width: 100%;
+        height: 598px;
+        overflow-y: auto;
+  
+        .contact-us-item-row-2 {
+          width: 100%;
+          height: 60px;
+          display: flex;
+          align-items: center;
+          padding-right: 10px;
+  
+          .contact-us-item-row-2-text {
+            font-family: var(--font-family);
+            font-size: 18px;
+            color: black;
+            font-weight: bold;
+          }
+        }
+  
+        .contact-us-item-row-3 {
+          width: 100%;
+          height: 90px;
+          padding: 5px 10px 0px 16px;
+  
+          p {
+            font-family: var(--font-family);
+            font-size: 14px;
+            color: black;
+            font-weight: bold;
+            line-height: 25px;
+          }
+        }
+  
+        .contact-us-item-accordion {
+          width: 100%;
+          padding: 10px;
+  
+          .contact-us-item-accordion-1 {
+            width: inherit;
+            overflow: hidden;
+            margin-bottom: 10px;
+  
+            input[type="checkbox"] {
+              display: none;
+            }
+            .accordion-1-label {
+              width: 100%;
+              height: fit-content;
+              display: flex;
+              border: 1px solid lightgray;
+              border-radius: 7px;
+              padding-left: 10px;
+              padding-right: 10px;
+              padding-top: 20px;
+              padding-bottom: 20px;
+              align-items: center;
+              justify-content: space-between;
+  
+              .accordion-1-label-text {
+                font-family: var(--font-family);
+                font-size: 14px;
+                color: black;
+                font-weight: bold;
+              }
+  
+              .accordion-1-label-text-custom {
+                width: 80%;
+                line-height: 25px;
+              }
+            }
+            .accordion-1-content {
+              max-height: 0px;
+              overflow: hidden;
+  
+              .accordion-1-content-empty {
+                width: 100%;
+                height: 1px;
+                background-color: lightgray;
+                margin: 0px auto 10px;
+              }
+              .accordion-1-content-text {
+                font-family: var(--font-family);
+                font-size: 12px;
+                color: #2b2b2b;
+                line-height: 25px;
+                text-align: justify;
+              }
+            }
+  
+            input[name="accordion-1-input"]:checked ~ .accordion-1-content {
+              max-height: fit-content;
+              border-left: 1px solid lightgray;
+              border-right: 1px solid lightgray;
+              border-bottom: 1px solid lightgray;
+              border-radius: 0px 0px 7px 7px;
+              padding: 10px;
+            }
+            input[name="accordion-1-input"]:checked ~ .accordion-1-label {
+              border-bottom: none;
+              border-radius: 0px;
+  
+              svg {
+                transform: rotate(180deg);
+              }
+            }
+          }
+        }
+  
+        .contact-us-item-call {
+          width: 100%;
+          height: 100px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+  
+          .contact-us-item-call-link {
+            display: block;
+            width: 130px;
+            height: 50px;
+            text-decoration: none;
+  
+            .contact-us-item-call-center {
+              width: 100%;
+              height: 100%;
+              background-color: #ef4056;
+              border-radius: 40px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              column-gap: 10px;
+  
+              span {
+                font-family: var(--font-family);
+                font-size: 14px;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    input[id="show-contact-us"]:checked ~ .contact-us-label .show-contact-us {
+      display: none;
+    }
+  
+    input[id="show-contact-us"]:checked ~ .contact-us-label .close-contact-us {
+      display: flex;
+    }
+  
+    input[id="show-contact-us"]:checked ~ .contact-us-item {
+      display: block;
+    }
+  }
+  

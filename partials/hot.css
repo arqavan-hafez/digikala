@@ -1,0 +1,123 @@
+.hot{
+    width: 100%;
+    height: 410px;
+  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    .hot-center{
+        width: 70%;
+        height: 100%;
+        border: 1px solid lightgray;
+        border-radius: 15px;
+        padding: 10px;
+        .hot-center-top{
+            width:100% ;
+            height: 80px;
+            
+            display: flex;
+            flex-flow: row wrap;
+            .hot-center-top-right{
+                width: 58%;
+                height: 100%;
+               
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: flex-end;
+                align-items: center;
+                h5{
+                    font-family: var(--font-family);
+                    font-size: 30px;
+                    font-weight: normal;
+
+                }
+            }
+            .hot-center-top-left{
+                width: 42%;
+                height: 100%;
+               
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: flex-end;
+                align-items: center;
+                a{
+                   text-decoration: none;
+                   font-family: var(--font-family); 
+                   color: rgb(24, 207, 207);
+                }
+            }
+        
+
+        }
+        .hot-center-bottom{
+            width: 100%;
+            height: calc(100% - 80px);
+            
+            .swiper {
+                width: 100%;
+                height: 100%;
+              }
+          
+              .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .swiper-slide-hot-item{
+                    width: 100%;
+                    height: 100%;
+                    
+                    .swiper-slide-hot-item-first{
+                        width: 100%;
+                        height: 33%;
+                       
+                        margin: 1px;
+                        display: flex;
+                        flex-flow: row wrap;
+                        column-gap: 10px;
+                        align-items: center;
+                        img{
+                            width: 86px;
+                            height: 86px;
+                        }
+                        span{
+                            font-family: var(--pershian-number);
+                            font-size: 40px;
+                            font-weight: bold;
+                            color: aqua;
+
+                        }
+                        p{
+                            width: 60%;
+                            font-family: var(--font-family);
+                            font-size: 12px;
+                            text-align: right;
+                            line-height: 25px;
+                            display: -webkit-inline-box;
+                            --webkit-box-orient: vertical;
+                            --webkit-line-clamp: 2;
+                            overflow: hidden;
+
+                        }
+                      
+                       
+                    }
+                    .hot-line{
+                        border-bottom: 1px solid lightgray;
+                        
+                    }
+
+
+                }
+              }
+          
+              .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+        }
+    }
+}

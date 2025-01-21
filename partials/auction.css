@@ -1,0 +1,31 @@
+.auction{
+    width: 100%;
+    height: 820px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .auction-center{
+        width: 70%;
+        height: 100%;
+        background-color: brown;    
+        display: flex;
+        justify-content: space-between;
+        .auction-center-first{
+            width: 100%;
+            height: 308px;
+            background-color: chartreuse;
+        }
+        .auction-center-second{
+            width: 100%;
+            height: 308px;
+            background-color: rgb(0, 51, 255);
+        }
+        .auction-center-thired{
+            width: 100%;
+            height: 308px;
+            background-color: rgb(211, 59, 143);
+        }
+    }
+   
+}

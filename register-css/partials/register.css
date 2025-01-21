@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+  }
+  
+  .register-div {
+    width: 400px;
+    height: 460px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+  
+    .svg {
+      width: 100%;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .register-logo {
+        width: 100px;
+      }
+    }
+  
+    .multi-text {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      flex-flow: row nowrap;
+      column-gap: 10px;
+      align-items: center;
+      direction: rtl;
+      padding-right: 30px;
+  
+      .multi-text-empty {
+        width: 1px;
+        height: 20px;
+        background-color: black;
+      }
+  
+      .multi-text-entry {
+        font-family: var(--MyFont);
+        font-size: 16px;
+        font-weight: bold;
+      }
+  
+      .multi-text-register {
+        font-family: var(--MyFont);
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  
+    .description {
+      width: 100%;
+      height: fit-content;
+      padding-right: 30px;
+      direction: rtl;
+      margin-bottom: 20px;
+      margin-top: 20px;
+  
+      .description-hi {
+        display: block;
+        font-family: var(--MyFont);
+        font-size: 12px;
+        color: rgb(106, 104, 104);
+        margin-bottom: 10px;
+      }
+  
+      .description-description {
+        display: block;
+        font-family: var(--MyFont);
+        font-size: 12px;
+        color: rgb(106, 104, 104);
+      }
+    }
+  
+    .form {
+      width: 100%;
+      height: 140px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+  
+      .form-inner-div {
+        width: 85%;
+        height: 100%;
+  
+        .form-inner-div-input {
+          width: 100%;
+          height: 80px;
+  
+          .mobile-email {
+            width: 100%;
+            height: 50px;
+            border-radius: 7px;
+            border: 1px solid aqua;
+            padding: 15px;
+            caret-color: aqua;
+            font-size: 16px;
+  
+            &:focus {
+              outline: none;
+              border: 1px solid crimson;
+            }
+  
+            &:focus ~ .form-inner-div-hint {
+              display: block;
+            }
+          }
+  
+          .form-inner-div-hint {
+            font-size: 12px;
+            color: crimson;
+            font-family: var(--MyFont);
+            margin-top: 5px;
+            display: none;
+          }
+        }
+  
+        .form-inner-div-button {
+          width: 100%;
+          height: 50px;
+          border-radius: 7px;
+          background-color: crimson;
+          color: white;
+          border: none;
+          font-family: var(--MyFont);
+          font-size: 14px;
+          margin-top: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+  
+    .codition {
+      width: 100%;
+      height: 40px;
+      margin-top: 10px;
+      padding-right: 30px;
+      direction: rtl;
+  
+      .text-part-1,
+      .conditon-link .text-part-2,
+      .text-part-3,
+      .rules-link .text-part-4,
+      .text-part-5 {
+        font-family: var(--MyFont);
+        font-size: 11px;
+      }
+  
+      .conditon-link,
+      .rules-link {
+        text-decoration: none;
+      }
+  
+      .conditon-link .text-part-2,
+      .rules-link .text-part-4 {
+        color: rgb(53, 172, 212);
+      }
+    }
+  }
+  

@@ -1,0 +1,43 @@
+.dbpicture-second {
+    width: 100%;
+    height: 265px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    .dbpicture-second-center {
+      width: 70%;
+      height: 100%;
+      display: flex;
+      column-gap: 15px;
+    }
+    .dbpicture-second-center-left {
+      width: 50%;
+      height: 100%;
+  
+      .dbpicture-second-center-left-link {
+        width: 100%;
+        height: 100%;
+        .dbpicture-second-center-left-link-img {
+          width: 100%;
+          height: 100%;
+          border-radius: 15px;
+        }
+      }
+    }
+    .dbpicture-second-center-right {
+      width: 50%;
+      height: 100%;
+  
+      .dbpicture-second-center-right-link {
+        width: 100%;
+        height: 100%;
+        .dbpicture-second-center-right-link-img {
+          width: 100%;
+          height: 100%;
+          border-radius: 15px;
+        }
+      }
+    }
+  }
+  

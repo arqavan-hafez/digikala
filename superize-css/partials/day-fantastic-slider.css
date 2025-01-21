@@ -1,0 +1,267 @@
+.day-fantastic-slider {
+    width: 100%;
+    height: 335px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  
+    .day-fantastic-slider-center {
+      width: 87%;
+      height: 100%;
+      background-image: url(../../imgs/svg/background-dey.svg),
+        linear-gradient(180deg, #e6123d, #c60c31);
+      background-repeat: repeat-x;
+      border-radius: 7px;
+  
+      .day-fantastic-slider-center-top {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        column-gap: 4px;
+        padding-right: 10px;
+        .day-fantastic-slider-center-top-svg {
+          transform: scale(0.6, 0.6);
+        }
+        .day-fantastic-slider-center-top-text {
+          color: white;
+          font-family: var(--MyFont);
+          font-size: 16px;
+        }
+      }
+      .day-fantastic-slider-center-bottom {
+        width: 100%;
+        height: 265px;
+        padding: 0px 20px 20px 20px;
+  
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+  
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 7px;
+  
+          .day-fantastic-slider-center-bottom-product {
+            width: 100%;
+            height: 100%;
+            border-radius: 7px;
+            .day-fantastic-slider-center-bottom-product-link {
+              display: block;
+              width: 100%;
+              height: 100%;
+              border-radius: 7px;
+              text-decoration: none;
+              .day-fantastic-slider-center-bottom-product-link-top {
+                width: 100%;
+                height: 15%;
+                display: flex;
+                align-items: center;
+                padding-right: 20px;
+  
+                img {
+                  width: 116px;
+                  height: 14px;
+                }
+              }
+              .day-fantastic-slider-center-bottom-product-link-bottom {
+                width: 100%;
+                height: 85%;
+                display: flex;
+                flex-flow: row wrap;
+  
+                .day-fantastic-slider-center-bottom-product-link-bottom-right {
+                  width: 70%;
+                  height: 100%;
+                  display: flex;
+                  flex-flow: row wrap;
+                  .day-fantastic-slider-center-bottom-product-link-bottom-right-image {
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+  
+                    img {
+                      width: 200px;
+                      height: 200px;
+                      object-fit: cover;
+                    }
+                  }
+                  .day-fantastic-slider-center-bottom-product-link-bottom-right-description {
+                    width: 60%;
+                    height: 100%;
+                    padding-right: 10px;
+                    padding-top: 40px;
+  
+                    h3 {
+                      height: 40px;
+                      color: #2b2b2b;
+                      font-size: 12px;
+                      font-family: var(--MyFont);
+                      text-align: right;
+                    }
+                    .day-fantastic-slider-center-bottom-product-link-bottom-right-description-color {
+                      width: 100%;
+                      height: 20px;
+                      display: flex;
+                      flex-flow: row wrap;
+                      align-items: center;
+                      column-gap: 5px;
+  
+                      .day-fantastic-slider-center-bottom-product-link-bottom-right-description-color-circle {
+                        width: 15px;
+                        height: 15px;
+                        background-color: black;
+                        border-radius: 50%;
+                      }
+  
+                      span {
+                        font-size: 10px;
+                        font-family: var(--MyFont);
+                        color: #2b2b2b;
+                      }
+                    }
+                    .day-fantastic-slider-center-bottom-product-link-bottom-right-description-discount {
+                      width: 35px;
+                      height: 20px;
+                      background-color: crimson;
+                      border-radius: 15px;
+                      margin-top: 20px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: flex-start;
+  
+                      span {
+                        display: block;
+                        width: 70%;
+                        height: 70%;
+                        color: whitesmoke;
+                        font-size: 14px;
+                        font-family: var(--bnazanin);
+                        font-weight: bold;
+                      }
+                    }
+                  }
+                }
+                .day-fantastic-slider-center-bottom-product-link-bottom-left {
+                  width: 30%;
+                  height: 100%;
+                  display: flex;
+                  flex-flow: column wrap;
+                  justify-content: flex-end;
+  
+                  .day-fantastic-slider-center-bottom-product-link-bottom-left-end-price {
+                    width: 100%;
+                    height: 15%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    padding-left: 20px;
+  
+                    span {
+                      font-size: 20px;
+                      font-family: var(--bnazanin);
+                      color: black;
+                    }
+                  }
+                  .day-fantastic-slider-center-bottom-product-link-bottom-left-primary-price {
+                    width: 100%;
+                    height: 15%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    padding-left: 40px;
+  
+                    del {
+                      font-size: 16px;
+                      font-family: var(--bnazanin);
+                      color: lightgray;
+                    }
+                  }
+                  .day-fantastic-slider-center-bottom-product-link-bottom-left-time {
+                    width: 100%;
+                    height: 15%;
+                    direction: ltr;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    padding-left: 20px;
+                    column-gap: 2px;
+  
+                    .day-fantastic-slider-center-bottom-product-link-bottom-left-time-time {
+                      font-size: 16px;
+                      font-family: var(--bnazanin);
+                      color: #ef394e;
+                      font-weight: bold;
+                    }
+  
+                    .day-fantastic-slider-center-bottom-product-link-bottom-left-time-two-dot {
+                      font-size: 16px;
+                      font-family: var(--bnazanin);
+                      color: #ef394e;
+                      font-weight: bold;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+  
+        .lock {
+          position: relative;
+          .more-lock {
+            width: 100%;
+            height: 100%;
+            background-color: #2b2b2bee;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
+            row-gap: 10px;
+            .more-lock-image {
+              width: 80px;
+              height: 80px;
+              background-color: #ef4056;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+  
+              img {
+                width: 80%;
+                height: 80%;
+                object-fit: cover;
+              }
+            }
+            .more-lock-text span {
+              font-size: 16px;
+              font-family: var(--MyFont);
+              color: whitesmoke;
+              font-weight: bold;
+            }
+          }
+        }
+  
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  
